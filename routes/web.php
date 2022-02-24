@@ -24,3 +24,6 @@ Route::get('upload_file', function () {
 use App\Http\Controllers\FileUploadController;
 
 Route::post('store_file', [FileUploadController::class, 'fileStore']);
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

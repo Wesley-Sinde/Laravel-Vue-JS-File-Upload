@@ -131,7 +131,7 @@ And update the following code into your FileUpload.vue components file:
 <template>
     <div class="container" style="margin-top: 50px;">
         <div class="text-center">
-            <h4>File Upload with VueJS and Laravel</h4><br>
+            <h4>File Upload with VueJS and Laravel  wesley-sinde</h4><br>
             <div style="max-width: 500px; margin: 0 auto;">
                 <div v-if="success !== ''" class="alert alert-success" role="alert">
                     {{success}}
@@ -218,7 +218,7 @@ Create a blade view file to define Vue’s app. Go to resources/views folder and
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <title>File Upload with VueJS and Laravel - Laratutorials.com</title>
+    <title>File Upload with VueJS and Laravel - wesley-sinde</title>
     <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css">
 </head>
 <body>
